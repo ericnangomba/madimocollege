@@ -151,7 +151,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
             </div>
 
             {/* Right Half: Entire Right Side Occupied by Graduate Student Image (6 cols) */}
-            <div className="lg:col-span-6 relative w-full flex flex-col items-center lg:items-end justify-start lg:-mt-16 xl:-mt-20">
+            <div className="lg:col-span-6 relative w-full flex flex-col items-center justify-start lg:-mt-16 xl:-mt-20">
               
               {/* Radiant Ambient Light behind the graduate */}
               <div className="absolute inset-0 bg-radial from-[#C5A24D]/35 via-[#0A3764]/20 to-transparent blur-3xl pointer-events-none" />
@@ -170,8 +170,8 @@ export const LandingView: React.FC<LandingViewProps> = ({
                 {/* Subtle bottom fade to blend gown cleanly */}
                 <div className="absolute bottom-0 inset-x-0 h-16 bg-gradient-to-t from-[#062242] via-[#062242]/70 to-transparent pointer-events-none z-10" />
 
-                {/* Floating Excellence Badge Centered Below Her: Hides Graduation Gown Bottom Edge Ends */}
-                <div className="absolute -bottom-6 sm:-bottom-8 left-1/2 -translate-x-1/2 w-[94%] sm:w-[88%] max-w-[380px] p-4 sm:p-5 rounded-2xl bg-[#062242]/95 backdrop-blur-md border border-[#C5A24D]/60 shadow-[0_20px_45px_rgba(0,0,0,0.85)] z-20 text-center space-y-1.5 animate-in fade-in slide-in-from-bottom-4 duration-500">
+                {/* Floating Excellence Badge Centered with Her: Hides Graduation Gown Bottom Edge Ends */}
+                <div className="absolute -bottom-4 sm:-bottom-6 left-1/2 sm:left-[57%] -translate-x-1/2 w-[92%] sm:w-[86%] max-w-[370px] p-4 sm:p-5 rounded-2xl bg-[#062242]/95 backdrop-blur-md border border-[#C5A24D]/60 shadow-[0_20px_45px_rgba(0,0,0,0.85)] z-20 text-center space-y-1.5 animate-in fade-in slide-in-from-bottom-4 duration-500">
                   <div className="flex items-center justify-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-amber-400" />
                     <span className="text-[11px] font-bold text-amber-300 uppercase tracking-widest font-heading">
