@@ -192,12 +192,6 @@ export const LandingView: React.FC<LandingViewProps> = ({
                   </div>
                 </div>
 
-                {/* Floating Stat Pill on Top Right */}
-                <div className="absolute top-8 right-2 sm:right-4 px-3.5 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-bold font-heading flex items-center gap-2 shadow-lg z-20">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span>3 Flagship Launch Programs</span>
-                </div>
-
               </div>
 
             </div>
