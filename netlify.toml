@@ -14,6 +14,20 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
+  NETLIFY_DRAWER = "false"
+  NETLIFY_FEEDBACK = "false"
+
+[context.deploy-preview.environment]
+  NETLIFY_DRAWER = "false"
+  NETLIFY_FEEDBACK = "false"
+
+[context.production.environment]
+  NETLIFY_DRAWER = "false"
+  NETLIFY_FEEDBACK = "false"
+
+[context.branch-deploy.environment]
+  NETLIFY_DRAWER = "false"
+  NETLIFY_FEEDBACK = "false"
 
 # Security & performance headers
 [[headers]]
